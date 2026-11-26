@@ -1,27 +1,27 @@
 class Uidiff < Formula
   desc "Align moved screenshot content and box visual changes"
   homepage "https://github.com/pamin-labs/uidiff"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://uidiff.paminlabs.com/download/v0.0.1/uidiff-0.0.1-macos-x64.tar.gz"
-      sha256 "080d28d60cd000207795b3f3bf2c61409f6e7fb181cd67ffbad60e049bd2410c"
+      url "https://uidiff.paminlabs.com/download/v0.0.2/uidiff-0.0.2-macos-x64.tar.gz"
+      sha256 "6eab36eb59d806ad2077f940dcb9604b44d078ed3dd976c06018ff01eb827548"
     end
     on_arm do
-      url "https://uidiff.paminlabs.com/download/v0.0.1/uidiff-0.0.1-macos-arm64.tar.gz"
-      sha256 "4d6e044fb099254258f7b4277925a1176a44d4429a5c11337fe32ed913766a24"
+      url "https://uidiff.paminlabs.com/download/v0.0.2/uidiff-0.0.2-macos-arm64.tar.gz"
+      sha256 "cb7dff777991ffec7d054b8e3b771e3c898a32d984fcefbd3f15ffa0a35cbf16"
     end
   end
   on_linux do
     on_intel do
-      url "https://uidiff.paminlabs.com/download/v0.0.1/uidiff-0.0.1-linux-x64.tar.gz"
-      sha256 "3e00861cd0a72f369ae1eafdd3d37aef238c381c6a36e4e3570763a47023e854"
+      url "https://uidiff.paminlabs.com/download/v0.0.2/uidiff-0.0.2-linux-x64.tar.gz"
+      sha256 "db8e6372c838632f958c641d5d2e974b4ab2211c1155ced92a4b8210940c8016"
     end
     on_arm do
-      url "https://uidiff.paminlabs.com/download/v0.0.1/uidiff-0.0.1-linux-arm64.tar.gz"
-      sha256 "40c48c01a93bddfe9e1b6d22f4578fcb94c10162ac7b2cfd3782515df2cf66df"
+      url "https://uidiff.paminlabs.com/download/v0.0.2/uidiff-0.0.2-linux-arm64.tar.gz"
+      sha256 "92341a153e0d18ea2e961e5f1ec8340fa87a8f1353a2de62053092223ed8c834"
     end
   end
 
